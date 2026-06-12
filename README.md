@@ -20,18 +20,67 @@ This repository is designed to demonstrate a structured approach to analyzing co
 ## Repository Structure
 
 ```text
+```text
 wireshark-network-analysis-labs/
 ├── README.md
 ├── LICENSE
 ├── ROADMAP.md
+├── FILE-MANIFEST.md
+├── .gitignore
+│
 ├── docs/
+│   ├── lab-environment-and-tools.md
+│   ├── wireshark-installation-guide.md
+│   ├── packet-capture-safety-and-privacy.md
+│   ├── network-analysis-methodology.md
+│   ├── wireshark-display-filters-cheatsheet.md
+│   ├── common-protocols-reference.md
+│   └── glossary.md
+│
 ├── labs/
 │   ├── fundamentals/
+│   │   ├── lab-01-icmp-ping-analysis.md
+│   │   ├── lab-02-dns-query-analysis.md
+│   │   ├── lab-03-dhcp-dora-analysis.md
+│   │   ├── lab-04-tcp-handshake-analysis.md
+│   │   ├── lab-05-http-traffic-analysis.md
+│   │   └── lab-06-https-tls-analysis.md
+│   │
 │   └── intermediate/
+│       ├── lab-07-arp-resolution-analysis.md
+│       ├── lab-08-tcp-retransmission-analysis.md
+│       ├── lab-09-tcp-connection-termination.md
+│       ├── lab-10-dns-failure-analysis.md
+│       ├── lab-11-icmp-error-message-analysis.md
+│       ├── lab-12-dhcp-failure-analysis.md
+│       ├── lab-13-tls-certificate-analysis.md
+│       └── lab-14-ipv6-neighbor-discovery.md
+│
 ├── troubleshooting-scenarios/
+│   ├── README.md
+│   ├── scenario-01-website-unreachable.md
+│   ├── scenario-02-dns-name-resolution-failure.md
+│   ├── scenario-03-slow-network-connection.md
+│   ├── scenario-04-intermittent-packet-loss.md
+│   ├── scenario-05-tcp-port-connection-failure.md
+│   ├── scenario-06-dhcp-address-assignment-failure.md
+│   └── scenario-07-tls-connection-failure.md
+│
 ├── templates/
+│   ├── lab-report-template.md
+│   ├── troubleshooting-ticket-template.md
+│   ├── packet-analysis-findings-template.md
+│   └── incident-escalation-template.md
+│
 ├── screenshots/
+│   ├── README.md
+│   └── sanitized-examples/
+│       └── README.md
+│
 └── sample-captures/
+    └── README.md
+```
+
 ```
 
 ## Fundamental Labs
